@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="535.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="farmapp.controller.PrescriptionController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="800.0">
+          <children>
+              <ImageView fitHeight="535.0" fitWidth="800.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@../image/prescription.png" />
+                  </image>
+              </ImageView>
+              <TextField fx:id="fiscalCodePatientField" layoutX="169.0" layoutY="245.0" prefHeight="16.0" prefWidth="286.0" promptText="Codice Fiscale">
+               <font>
+                  <Font size="10.0" />
+               </font></TextField>
+              <TextField fx:id="patientNameField" layoutX="233.0" layoutY="181.0" prefHeight="17.0" prefWidth="163.0" promptText="Nome">
+               <font>
+                  <Font size="10.0" />
+               </font></TextField>
+              <TextField fx:id="patientSurnameField" layoutX="402.0" layoutY="181.0" prefHeight="16.0" prefWidth="160.0" promptText="Cognome">
+               <font>
+                  <Font size="10.0" />
+               </font></TextField>
+              <TextArea fx:id="prescriptionNoteField" layoutX="140.0" layoutY="321.0" prefHeight="155.0" prefWidth="572.0" promptText="Note">
+               <font>
+                  <Font size="10.0" />
+               </font></TextArea>
+              <Button fx:id="sendPrescriptionButton" layoutX="439.0" layoutY="640.0" mnemonicParsing="false" onAction="#managePrescription" prefHeight="25.0" prefWidth="143.0" text="INVIA PRESCERIZIONE">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+              <TextField fx:id="resumePrescriptionField" layoutX="227.0" layoutY="119.0" prefHeight="23.0" prefWidth="206.0" promptText="Oggetto">
+               <font>
+                  <Font size="10.0" />
+               </font></TextField>
+              <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="69.0" layoutY="268.0" prefHeight="17.0" prefWidth="666.0" textAlignment="CENTER" textFill="#c91818">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+              <Label fx:id="fiscalCodeMedicLabel" layoutX="169.0" layoutY="220.0" prefHeight="20.0" prefWidth="286.0" />
+                <ChoiceBox fx:id="drugOne" layoutX="46.0" layoutY="321.0" prefHeight="25.0" prefWidth="88.0" />
+                <TextField fx:id="qtaOne" layoutX="722.0" layoutY="320.0" prefHeight="25.0" prefWidth="35.0">
+               <font>
+                  <Font size="10.0" />
+               </font></TextField>
+          </children>
+      </AnchorPane>
+   </children>
+</Pane>
