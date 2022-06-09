@@ -1,9 +1,0 @@
-9
-1,Davide,De Acetis,Da prendere in caso di mal di testa,1234,1234,Prescrizione OkiTask,4,OkiTask,0
-2,Davide,De Acetis,Da prendere in caso di mal di testa,1234,1234,Prescrizione prova1,1,prova1,0
-3,Mario,Rossi,Da prendere in caso di febbre.,P1234,M1234,Prescrizione Tachipirina,1,Tachipirina 1000g,0
-4,Anna,Montana,Da prendere in caso di dolori.,P5678,M1234,Prescrizione OkiTask,2,OkiTask,0
-5,Mario,Rossi,Descrizione.,P1234,M5678,Prescrizione Prolactis,4,Prolactis,0
-6,Anna,Montana,Descrizione,P5678,M5678,Prescrizione Novalgina,1,Novalgina,0
-7,TEST ELIMINAZIONE,TEST ELIMINAZIONE,TEST ELIMINAZIONE,P1234,M1234,TEST ELIMINAZIONE,1,Novalgina,0
-8,TEST EVASIONE,TEST EVASIONE,TEST EVASIONE,P1234,M1234,TEST EVASIONE,1,Novalgina,1
